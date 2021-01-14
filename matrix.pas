@@ -167,33 +167,6 @@ begin
       end
     // jinak je vygenerovan jiny radek nez 13
     else
-      if(poziceY = 23)then
-        begin
-          TextColor(LightGreen);
-
-          // pokud je generovana konkretni pozice (poziceX) s pismenem
-          case poziceX of
-            // zapis pismeno
-            53:
-              Write('C');
-            54:
-              Write('H');
-            59:
-              Write('L');
-            64:
-              Write('U');
-            69:
-              Write('D');
-            74:
-              Write('I');
-            79:
-              Write('L');
-            // jinak zapis mezeru
-            else
-                VypisZnak(' ',poziceX, poziceY);
-          end;
-        end
-        else
           // vypsat nahodny znak 0 (číslo znaku v ASCII 48) nebo 1 (49)
           VypisZnak(Chr(Random(2)+48),poziceX, poziceY);
 
