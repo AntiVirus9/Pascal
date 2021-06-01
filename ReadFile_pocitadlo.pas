@@ -32,4 +32,4 @@ begin
   Writeln('Min: ', Min:0:2);
   Writeln('Max: ', Max:0:2);
   Readln();
-end.   
+end.
