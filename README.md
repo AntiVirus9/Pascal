@@ -1,2 +1,2 @@
-# Pascal-Conzole
+# Pascal-Console
 Programovací jazyk pro výukové využití
